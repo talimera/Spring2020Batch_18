@@ -28,11 +28,11 @@ public class replit_074_SMSMessage {
             String phoneNumber;
             String messageBody;
 
-            sender = message.substring(message.indexOf("<"), message.indexOf(">" + 1));
+            sender = message.substring(message.indexOf("<")+1, message.indexOf(">"));
 
-            phoneNumber = message.substring(message.indexOf("["), message.indexOf("]" + 1));
+            phoneNumber = message.substring(message.indexOf("[")+1, message.indexOf("]"));
 
-            messageBody = message.substring(message.indexOf("{"), message.indexOf("}" + 1));
+            messageBody = message.substring(message.indexOf("{")+1, message.indexOf("}"));
 
             System.out.println("Sender: " + sender);
             System.out.println("Phone Number: " + phoneNumber);
