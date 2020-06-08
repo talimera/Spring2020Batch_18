@@ -7,7 +7,7 @@ public abstract class Phone {
     //abstract methods: calling(), texting()
     //instance method: toString()
 
-    public String brand;
+    public static String brand;
     public String model;
     public double price;
     public String size;

@@ -12,6 +12,13 @@ public class PhoneObjects {
 
         System.out.println(phone1);
 
+        Samsung phone2 = new Samsung("Note 10",1000,"Large");
+
+        phone2.calling(12314);
+        phone2.texting(1142314);
+
+        System.out.println(phone2);
+
     }
 
 }
