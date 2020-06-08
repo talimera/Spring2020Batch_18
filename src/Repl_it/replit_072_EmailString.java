@@ -9,8 +9,6 @@ public class replit_072_EmailString {
         String email = scan.next();
 
 
-
-
         if(email.contains("_")){
             String first = email.substring(0,email.indexOf("_"));
             String last = email.substring(email.indexOf("_")+1,email.indexOf("@"));

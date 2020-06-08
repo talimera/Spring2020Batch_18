@@ -15,6 +15,9 @@ public class carObjects {
         System.out.println(car1.color);
         System.out.println(car1.year);
 
+        car1.start();
+        car1.drive();
+
         Car car2 = new Car();
          car2.Brand = "Toyota";
          car2.Model = "Corolla";
@@ -25,6 +28,8 @@ public class carObjects {
         System.out.println(car2.Model);
         System.out.println(car2.year);
         System.out.println(car2.color);
+
+        car2.getCarInfo();
 
 
 
